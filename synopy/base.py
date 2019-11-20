@@ -2,7 +2,7 @@
 import json
 try:
     from urlparse import urljoin
-except ModuleNotFoundError:
+except:
     from urllib.parse import urljoin
 import six
 import requests
