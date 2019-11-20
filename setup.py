@@ -16,6 +16,6 @@ setup(
     description='Python library for the Synology DiskStation APIs',
     install_requires=[
    'requests>=2.20.0',
-   'B>=2six>=1.12.0'
+   'six>=1.12.0'
     ],
 )
