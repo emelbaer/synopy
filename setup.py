@@ -13,5 +13,9 @@ setup(
     license='',
     author='George Spanos',
     author_email='spanosgeorge@gmail.com',
-    description='Python library for the Synology DiskStation APIs'
+    description='Python library for the Synology DiskStation APIs',
+    install_requires=[
+   'requests>=2.20.0',
+   'B>=2six>=1.12.0'
+    ],
 )
