@@ -114,7 +114,7 @@ class Response(object):
         # the url that initiated this response
         self.url = resp.url
         # the deserialized json data
-        self.payload = resp.status_code == 200 and json.loads(resp.content) or {}
+        self.payload = resp.status_code == 200 and resp.json() or {} #json.loads(resp.content) or {}
         # user friendly message
         self.error_message = None
 
